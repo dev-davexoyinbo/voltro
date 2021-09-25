@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  voltro-client:
+    build:
+      context: ./voltro-nuxt-client
+      dockerfile: Dockerfile
+    container_name: client-dc
+    ports:
+      - 3000:3000
+    volumes:
+      - './voltro-nuxt-client:/usr/app'
+      - '/usr/app/node_modules'

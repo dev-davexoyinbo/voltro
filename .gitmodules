@@ -1,0 +1,6 @@
+[submodule "voltro-nuxt-client"]
+	path = voltro-nuxt-client
+	url = git@github.com:dev-davexoyinbo/voltro-nuxt-client.git
+[submodule "voltro-laravel-backend"]
+	path = voltro-laravel-backend
+	url = git@github.com:dev-davexoyinbo/voltro-laravel-backend.git
